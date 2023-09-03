@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    @apply bg-gray-800 h-screen w-screen
+}
